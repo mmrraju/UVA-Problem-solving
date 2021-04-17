@@ -1,0 +1,8 @@
+from math import sqrt
+
+num_tests = int(input())
+
+for i in range(num_tests):
+    worries = int(input())
+    row =int((sqrt(1+8*worries)-1)//2)
+    print(row)
