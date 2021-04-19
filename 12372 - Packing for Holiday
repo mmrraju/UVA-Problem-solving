@@ -1,0 +1,7 @@
+for i in range(int(input())):
+    i+=1
+    l, w, h = list(map(int, input().split()))
+    if l<=20 and w<=20 and h <=20:
+        print('Case %d:' %i,'good')
+    else:
+        print('Case %d:' %i, 'bad')
