@@ -1,0 +1,11 @@
+from math import ceil
+def pos(result):
+    pos_num = []
+    while result !=0:
+        pos_num.append(result%10)
+        result = result//10
+    return pos_num[1]
+for i in range(int(input())):
+    n = int(input())
+    result = ceil((((((n*567)/9)+7492)*235)/47)-498)
+    print(pos(abs(result)))
