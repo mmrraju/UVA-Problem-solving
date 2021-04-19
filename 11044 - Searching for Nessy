@@ -1,0 +1,7 @@
+from math import ceil
+num_tests = int(input())
+
+for test in range(num_tests):
+  n, m = list(map(int, input().split()))
+  sol = (n//3)*(m//3)
+  print(int(sol))
